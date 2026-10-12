@@ -66,3 +66,21 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Сборка CMake / CLion
+cmake-build-*/
+out/
+
+# IDE
+.idea/
+.vscode/
+.vs/
+*.user
+
+
+# Файлы, которые программа создаёт во время работы
+*.bin
+
+# Мусор ОС
+.DS_Store
+Thumbs.db
