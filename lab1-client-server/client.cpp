@@ -8,16 +8,16 @@ using namespace std;
 const int max_marks = 10;
 
 struct Person {
-    char name[25];   // имя
-    int count;   // сколько оценок
-    int marks[max_marks];   // оценки
+    char name[25];
+    int count;
+    int marks[max_marks];
 } A;
 
 // структура ответа сервера
 struct Answer {
-    int scholarship;   // стипендия (-1 - неверные данные)
-    int debts;          // количество задолженностей (каждая двойка - 1 задолженность)
-    double average;    // средний балл
+    int scholarship;
+    int debts;
+    double average;
 } R;
 
 int main() {
